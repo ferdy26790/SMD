@@ -1,0 +1,38 @@
+.page_wrap {
+  margin-top: 1rem;
+}
+
+.content_container {
+  display: flex;
+}
+
+.panel_control {
+  margin-right: 2rem;
+}
+
+.other_posts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.album_bar {
+  display: flex
+}
+
+.pointer:hover {
+  cursor: pointer;
+}
+
+.flexDisplay {
+  display: flex;
+}
+
+.photos_wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photos_wrap img {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
