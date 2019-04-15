@@ -39,7 +39,7 @@ export default class UserCardDetail extends Component {
                 {
                   user.albums.map(album => (
                   <div key={album.id} className="album_bar">
-                    <div onClick={() => this.props.handleClickPostDetail('albumsDetail', album.id)} className="list-group-item list-group-item-action pointer" style={{width: "30rem"}}>
+                    <div onClick={() => this.props.handleClickPostDetail('albumsDetail', album.id, album.title)} className="list-group-item list-group-item-action pointer" style={{width: "30rem"}}>
                       {album.title}
                     </div>
                   </div>
